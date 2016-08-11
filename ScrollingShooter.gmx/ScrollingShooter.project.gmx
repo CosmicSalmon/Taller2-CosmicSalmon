@@ -4,16 +4,49 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\snd_KabumEnemy</sound>
+    <sound>sound\snd_KabumMaAvione</sound>
+    <sound>sound\snd_KabumDamage</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_Island1</sprite>
     <sprite>sprites\spr_Island2</sprite>
     <sprite>sprites\spr_Island3</sprite>
+    <sprite>sprites\spr_ElMioAvione</sprite>
+    <sprite>sprites\spr_Bullet</sprite>
+    <sprite>sprites\spr_Enemy1</sprite>
+    <sprite>sprites\spr_KabumEnemy</sprite>
+    <sprite>sprites\spr_KabumMaAvione</sprite>
+    <sprite>sprites\spr_Bottom</sprite>
+    <sprite>sprites\spr_Life</sprite>
+    <sprite>sprites\spr_Enemy2</sprite>
+    <sprite>sprites\spr_Enemy3</sprite>
+    <sprite>sprites\spr_Enemy4</sprite>
+    <sprite>sprites\spr_EnemyBullet1</sprite>
+    <sprite>sprites\spr_EnemyBullet2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\back_water</background>
   </backgrounds>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_Island1</object>
+    <object>objects\obj_Island2</object>
+    <object>objects\obj_Island3</object>
+    <object>objects\obj_ElMioAvione</object>
+    <object>objects\obj_Bullet</object>
+    <object>objects\obj_Enemy1</object>
+    <object>objects\obj_Enemy4</object>
+    <object>objects\obj_Enemy2</object>
+    <object>objects\obj_Enemy3</object>
+    <object>objects\obj_KabumEnemy</object>
+    <object>objects\obj_KabumMaAvione</object>
+    <object>objects\obj_EnemyController</object>
+    <object>objects\obj_Controller_Life</object>
+    <object>objects\obj_EnemyBullet1</object>
+    <object>objects\obj_EnemyBullet2</object>
+  </objects>
   <rooms name="rooms">
     <room>rooms\Lvl1</room>
   </rooms>
